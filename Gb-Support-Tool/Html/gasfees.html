@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="MyStyle.css">
+<title>Gb-Support-Tool</title>
+
+<body class="Body">
+<main class="fullPage__Container">
+
+
+    <div class="NavBar__Container">
+
+        <nav class="NavBar">
+
+            <header class="NavBar__Header">
+                Gentlemens Bank Support Tool
+            </header>
+
+            <div class="NavBar__List__Container">
+
+                <ul class="NavBar__List">
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="index.html">Home</a>
+                    </li>
+
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="faq.html">F.A.Q.</a>
+                    </li>
+
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="wallets.html">Installing & Using Wallets</a>
+                    </li>
+
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="security.html">Common Security Practices</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="seedphrases.html">Setting up Seed Phrases</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="metamaskwallet.html">Setting up MetaMask</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="defi.html">DeFi</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="understandingeth.html">Understanding ETH</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="gasfees.html">Gas Fees</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="smartcontracts.html">Smart Contracts</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="decentralizedexchange.html">Decentralized Exchanges</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="staking.html">Staking</a>
+                    </li>
+
+                    <li class="Nav__Link__List">
+                        <a class="Nav__Link" href="yieldfarming.html">Yield Farming</a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+    <div class="MainContent__Container">
+
+        <article class="MainContent__Article">
+
+            <header class="MainContent__Header">
+                Gas Fees
+            </header>
+
+            <h2 class="MainContent__SubTitle">
+                What is Gas?
+            </h2>
+
+                <div class="MainContent__Paragraph__Container">
+
+                    <p class="MainContent__Paragraph">"Gas" refers to the fee, required to complete a transaction or execute a smart contract over the Ethereum network. Measured in smaller units of Ether called Gwei, where "1 Gwei" is equal to "0.000000001 Ether"/ "1000000000 Gwei" is equal to "1 Ether". Gas is used to allocate the computational effort required to execute specific operations on the Ethereum network. Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee.</p>
+
+                </div>
+
+                <div class="MainContent__IMG">
+
+                    <img class="EtherDenominationIMG" alt="Defi Saver gas prices" src="imgs/GasPrice.png">
+
+                </div>
+
+            <h2 class="MainContent__SubTitle">
+                How are Gas Fees Priced
+            </h2>
+
+                <div class="MainContent__Paragraph__Container">
+
+                    <p class="MainContent__Paragraph">The price of Gas is determined by basic supply & demand between the network miners/validators. These miners/validators can set thresholds for Gas fees, if a transaction does not meet the requirements it will not be processed.  We can use (Gwei limit * Gas price) to calculate an estimation for "Gas Fees"</p>
+
+                </div>
+
+                <figure class="MainContent__IMG">
+
+                    <img class="EtherDenominationIMG" alt="Meta Mask Gas fee for base" src="imgs/metamaskTranasaction.png">
+
+                    <figcaption class="MainContent__Paragraph">As you can see to send 1 ETH it would cost 0.003402 ETH.</figcaption>
+
+                </figure>
+
+                <div class="MainContent__Paragraph__Container">
+
+                    <p class="MainContent__Paragraph">Simply "Gas Fees" will be measured by how many steps are taking inside the transaction; Gewi limit. The smallest fee would be to send Ether to another address as it has the least amount of steps required, a Gwei limit of 21000gwei. Executing/deploying contracts will have a higher Gwei limit due to there being more steps. On average creating a contract takes a Gwei limit of 32000gwei plus the regular 21000gwei limit to transact.</p>
+
+                </div>
+
+
+        </article>
+
+    </div>
+
+</main>
+
+</body>
+
+</html>
