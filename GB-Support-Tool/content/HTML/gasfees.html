@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gb-Support-Tool</title>
+  <link rel="stylesheet" href="/home/orphan/WorkSpace/GB-Support-Tool/layouts/Gb-Support-Tool-Style.css">
+</head>
+
+<body>
+    <aside> <!-- YOUR MENU -->
+        <p>Gentlemens Bank Support Tool</p>
+        <a href="index.html">Home</a>
+        <a href="faq.html">F.A.Q.</a>
+        <a href="wallets.html">Installing & Using Wallets</a>
+        <a href="security.html">Common Security Practices</a>
+        <a href="seedphrases.html">Setting up Seed Phrases</a>
+        <a href="metamaskwallet.html">Setting up MetaMask</a>
+        <a href="defi.html">DeFi</a>
+        <a href="understandingeth.html">Understanding ETH</a>
+        <a href="gasfees.html">Gas Fees</a>
+        <a href="smartcontracts.html">Smart Contracts</a>
+        <a href="decentralizedexchange.html">Decentralized Exchanges</a>
+        <a href="staking.html">Staking</a>
+        <a href="#">Yield Farming</a>
+        <a href="userguide.html">User Guide</a>
+    </aside>
+
+    <section>
+        <main> <!-- YOU CONTENT -->
+          <h1>Gas Fees</h1>
+            <h2>What is Gas?</h2>
+            <p>"Gas" refers to the fee, required to complete a transaction or execute a smart contract over the Ethereum network. Measured in smaller units of Ether called Gwei, where "1 Gwei" is equal to "0.000000001 Ether"/ "1000000000 Gwei" is equal to "1 Ether". Gas is used to allocate the computational effort required to execute specific operations on the Ethereum network. Since each Ethereum transaction requires computational resources to execute, each transaction requires a fee.</p>
+            <img alt="DeFi Gas Saver" src="/home/orphan/GB-Support-Tool/content/IMGS/GasPrice.png">
+            <h2>How are Gas Fees priced?</h2>
+            <p>The price of Gas is determined by basic supply & demand between the network miners/validators. These miners/validators can set thresholds for Gas fees, if a transaction does not meet the requirements it will not be processed.  We can use (Gwei limit * Gas price) to calculate an estimation for "Gas Fees"</p>
+            <p>As the Recommended GWEI drops so will the amount you pay in ether to complete transactions.</p>
+            <img alt="Meta Mask gas fee for base 21000gwei transaction" src="/home/orphan/GB-Support-Tool/content/IMGS/metamaskTranasaction.png">
+            <p>As you can see to send 1 ETH it would cost 0.003402 ETH.</p>
+            <p>Simply "Gas Fees" will be measured by how many steps are taking inside the transaction; Gewi limit. The smallest fee would be to send Ether to another address as it has the least amount of steps required, a Gwei limit of 21000gwei. Executing/deploying contracts will have a higher Gwei limit due to there being more steps. On average creating a contract takes a Gwei limit of 32000gwei plus the regular 21000gwei limit to transact.</p>
+        </main>
+
+        <footer> <!-- THE FOOTER -->
+            <img src="/home/orphan/WorkSpace/GB-Support-Tool/content/IMGS/Gb_logo.png" alt="GB Logo">
+
+            <div >
+                <h3>Twitter</h3>
+                <a href="https://twitter.com/gentlemensbank">@Gentlemens Bank</a>
+                <a href="https://twitter.com/Tylertheidiot">@TylertheIdiot</a>
+            </div>
+        </footer>
+    </section>
+
+  <!--  <style>
+      /**
+       *
+       * Fast reset
+       *
+       */
+      html, html * {
+          padding: 0;
+          margin: 0;
+      }
+
+      html, body {
+          min-height: 100%;
+          height: 100%;
+      }
+
+      /**
+       *
+       * Custom
+       *
+       */
+      body {
+          display: flex;
+      }
+
+      body aside {
+          display: flex;
+          flex-direction: column;
+          width: 250px;
+          background: grey;
+          height: 100%;
+      }
+
+      body aside p {
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 1.4em;
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid;
+      }
+
+      body aside a {
+          display: block;
+          color: white;
+          text-decoration: none;
+          text-align: center;
+      }
+
+      body aside a:hover {
+        color: red;
+      }
+
+      body section {
+          flex: 1;
+      }
+
+      body section main {
+          max-width: 600px;
+          margin: 0 auto;
+      }
+
+      body section main h1 {
+        margin-top: 40px;
+      }
+
+      body section main h2 {
+          margin-top: 30px;
+          padding: 2px;
+      }
+
+      body section main p {
+          margin-top: 10px;
+          padding: 5px;
+      }
+
+      body section main dl dd {
+        padding: 2px 10px;
+      }
+
+      body footer {
+          display: flex;
+          align-items: center;
+          margin-top: 80px;
+          background-color: black;
+          color: white;
+      }
+
+      body footer a {
+          display: block;
+          color: white;
+      }
+    </style> -->
+
+</body>
+
+</html>

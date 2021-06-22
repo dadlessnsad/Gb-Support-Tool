@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gb-Support-Tool</title>
+  <link rel="stylesheet" href="/home/orphan/WorkSpace/GB-Support-Tool/layouts/Gb-Support-Tool-Style.css">
+</head>
+
+<body>
+    <aside> <!-- YOUR MENU -->
+        <p>Gentlemens Bank Support Tool</p>
+        <a href="index.html">Home</a>
+        <a href="faq.html">F.A.Q.</a>
+        <a href="wallets.html">Installing & Using Wallets</a>
+        <a href="security.html">Common Security Practices</a>
+        <a href="seedphrases.html">Setting up Seed Phrases</a>
+        <a href="metamaskwallet.html">Setting up MetaMask</a>
+        <a href="defi.html">DeFi</a>
+        <a href="understandingeth.html">Understanding ETH</a>
+        <a href="gasfees.html">Gas Fees</a>
+        <a href="smartcontracts.html">Smart Contracts</a>
+        <a href="decentralizedexchange.html">Decentralized Exchanges</a>
+        <a href="staking.html">Staking</a>
+        <a href="#">Yield Farming</a>
+        <a href="userguide.html">User Guide</a>
+    </aside>
+
+    <section>
+        <main> <!-- YOU CONTENT -->
+            <h1>Understanding Ethereum</h1>
+            <h2>Brief History of Ethereum</h2>
+            <p>Ethereum is an open-source decentralized blockchain with smart contract functions. Ether is the native Cryptocurrencies for the platform, currently, it is the most actively used blockchain</p>
+            <p>Ethereum was first proposed in 2013 by Vitalik Buterin, to build decentralized applications. Ethereum was first announced at a North American Bitcoin Conference on January 14, 2014, 2014 is also the original crowdfunding period. The network went live on July 30, 2015, with an initial coin supply of 72 million. Ethereum is primarily used for decentralized finance using the EVM (Ethereum virtual machine) to run Dapps and execute scripts.</p>
+            <p>Ethereum's goal is to give everyone access to digital money and financial services, banking for everyone.  Utilizing a peer-to-peer blockchain network to skip the need for intermediaries, allowing Ethereum to be censorship-resistant. Meaning it's near impossible for an entity to stop you from using the service. Creating a level playing field for everyone involved.  Ethereum is constantly being upgraded to suit user's needs if you wish to learn more follow the Ethereum <a href="https://ethereum.org/en/eth2/">road map</a>.</p>
+            <h2>How Ethereum</h2>
+            <p>Ethereum offers the ability for developers to build on top of the Ethereum blockchain with ERC-20 standard. ERC-20 introduces a standard for "Fungible Tokens", simply they have a property that makes each Token the same as another Token. So for a developer to release a token on the Ethereum blockchain, they would need to follow the ERC-20 standard. These tokens are written in scripts and smart contracts using the programming language; Solidity, to implement onto the Ethereum blockchain.</p>
+            <h2>ERC-20 Standard</h2>
+            <p>Ethereum offers the ability for developers to build on top of the Ethereum blockchain with ERC-20 standard. ERC-20 introduces a standard for "Fungible Tokens", simply they have a property that makes each Token the same as another Token. So for a developer to release a token on the Ethereum blockchain, they would need to follow the ERC-20 standard. These tokens are written in scripts and smart contracts using the programming language; Solidity, to implement onto the Ethereum blockchain.</p>
+            <p>It is important to note the Ether itself does not suit the ERC-20 standard, that is why you will need to <a href="https://weth.io/">"Wrap"</a> the Ether instead.  Once the Ether is wrapped it is now compliant with the ERC-20 standards and, can be freely swapped for other Tokens.</p>
+            <p>ERC20 was created by Ethereum devs for the Ethereum community in 2015 and was officially recognized by the year 2017. Developers can submit an Ethereum Improvement Proposal (EIP) which would describe new functions along with their specific protocols and standards. A Committee then reviews, approves, amends, and finalizes that EIP—at that point, it becomes an ERC. Although ERC-20 may be the most well-known know it is not the only ERC.</p>
+            <p>Here are the functions in which Tokens on ERC-20 must follow</p>
+            <h3>Total Supply</h3>
+            <p>Information about the said Token's total supply.</p>
+            <h3>Balance of</h3>
+            <p>This provides the owner's account balance.</p>
+            <h3>Transfers</h3>
+            <p>The ability to transfer Tokens of a specific number to a defined address.</p>
+            <h3>Approve</h3>
+            <p>The ability to withdraw Tokens of a specific number to a defined account.</p>
+            <h3>Allowance</h3>
+            <p>Returns a set number of tokens from a spender to the owner</p>
+            <p>In simple form the ERC-20 is a standard interface for fungible (interchangeable) tokens, like voting tokens, staking tokens, or virtual currencies</p>
+        </main>
+
+        <footer> <!-- THE FOOTER -->
+            <img src="/home/orphan/WorkSpace/GB-Support-Tool/content/IMGS/Gb_logo.png" alt="GB Logo">
+
+            <div >
+                <h3>Twitter</h3>
+                <a href="https://twitter.com/gentlemensbank">@Gentlemens Bank</a>
+                <a href="https://twitter.com/Tylertheidiot">@TylertheIdiot</a>
+            </div>
+        </footer>
+    </section>
+
+    <!--<style>
+      /**
+       *
+       * Fast reset
+       *
+       */
+      html, html * {
+          padding: 0;
+          margin: 0;
+      }
+
+      html, body {
+          min-height: 100%;
+          height: 100%;
+      }
+
+      /**
+       *
+       * Custom
+       *
+       */
+      body {
+          display: flex;
+      }
+
+      body aside {
+          display: flex;
+          flex-direction: column;
+          width: 250px;
+          background: grey;
+          height: 100%;
+      }
+
+      body aside p {
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 1.4em;
+        text-align: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid;
+      }
+
+      body aside a {
+          display: block;
+          color: white;
+          text-decoration: none;
+          text-align: center;
+      }
+
+      body aside a:hover {
+        color: red;
+      }
+
+      body section {
+          flex: 1;
+      }
+
+      body section main {
+          max-width: 600px;
+          margin: 0 auto;
+      }
+
+      body section main h1 {
+        margin-top: 40px;
+      }
+
+      body section main h2 {
+          margin-top: 30px;
+          padding: 2px;
+      }
+
+      body section main p {
+          margin-top: 10px;
+          padding: 5px;
+      }
+
+      body section main dl dd {
+        padding: 2px 10px;
+      }
+
+      body footer {
+          display: flex;
+          align-items: center;
+          margin-top: 80px;
+          background-color: black;
+          color: white;
+      }
+
+      body footer a {
+          display: block;
+          color: white;
+      }
+    </style> -->
+
+</body>
+
+</html>
